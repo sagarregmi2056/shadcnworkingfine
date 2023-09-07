@@ -1,9 +1,14 @@
 import React from 'react'
+import './Button.css'
+import { Button } from "../../../@/components/ui/button"
 
-const Button = () => {
+const Button1 = () => {
   return (
-    <div>Button</div>
+    <div className='clickme'>
+   <Button>Clickme</Button>
+    </div>
+ 
   )
 }
 
-export default Button
+export default Button1

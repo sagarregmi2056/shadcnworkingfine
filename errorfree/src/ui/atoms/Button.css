@@ -1,0 +1,12 @@
+.clickme{
+    background-color: aquamarine;
+}
+.clickme button{
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 30px;
+}
+.clickme button:hover{
+    background-color: black;
+    color: white;
+}
